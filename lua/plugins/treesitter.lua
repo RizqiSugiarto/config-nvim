@@ -6,7 +6,7 @@ return { -- Highlight, edit, and navigate code
   opts = {
     ensure_installed = {
       'lua',
-      'python',
+      -- 'python',
       'javascript',
       'typescript',
       'vimdoc',

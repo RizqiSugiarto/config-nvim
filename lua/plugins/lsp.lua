@@ -162,8 +162,9 @@ return {
       --    https://github.com/pmizio/typescript-tools.nvim
       --
       -- But for many setups, the LSP (`tsserver`) will work just fine
-      tsserver = {},
-      ruff = {},
+      -- tsserver = {
+      --   cmd = { 'typescript-language-server', '--stdio' },
+      -- },
       pylsp = {
         settings = {
           pylsp = {
